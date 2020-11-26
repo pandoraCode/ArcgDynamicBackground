@@ -1,0 +1,7 @@
+[Unit]
+Description=dynamic-bg
+
+[Service]
+ExecStart=/usr/bin/dynamic-bg
+[Install]
+WantedBy=multi-user.target 
