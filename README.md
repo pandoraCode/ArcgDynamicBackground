@@ -14,7 +14,7 @@ subprocess
 
 
 - You can either run it using `python dynamic-bg.py &` on boot
-- Or if you're using systemd, place dynamic-bg.py and fetchbg.py on user/bin then place dynamic-db.service in /lib/systemd/system/
+- Or if you're using systemd, place the project in user/bin then place dynamic-db.service in /lib/systemd/system/
 
 `  sudo systemctl enable dynamic-db.service ||
    sudo systemctl start dynamic-db.service 
